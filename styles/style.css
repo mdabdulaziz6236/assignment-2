@@ -1,0 +1,60 @@
+
+/* font style from google */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-normal{
+  font-family: "Noto Serif", serif;
+
+}
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+.bold{
+    font-weight: 700;
+}
+.regular{
+    font-weight: 400;
+}
+/* header related styles */
+ 
+
+
+/* navbar related styles  */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header nav ul{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+}
+header nav ul li{
+    margin-right: 48px;
+}
+.a-home{
+    font-size: 1fr;
+    color: rgba(37, 36, 50, 1);
+}
+.a-shop, .a-about-us{
+    color: rgba(137, 135, 161, 1);
+    white-space: nowrap; 
+}
+.a-cart{
+    color: rgba(0, 0, 0, 1);
+    white-space: nowrap;
+}
+.cart-icon{
+    margin-left: 10px;
+    
+}
+
