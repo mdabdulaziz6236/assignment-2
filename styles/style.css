@@ -207,6 +207,67 @@ header nav ul li{
         margin: 16px 276px;
         
     }
+    /* bg image related  */
+    .img-1{
+        background-image: url("../images/deal-bloom.png");
+        border-radius: 14px;
+        text-align: center;
+        color: white;
+    }
+    .img-2{
+        background-image:url("../images/deal-ana.png") ;
+        border-radius: 14px;
+        text-align: center;
+        color: white;
+    }
+    .img-3{
+        background-image: url("../images/deal-zabo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+        border-radius: 22px;
+    }
+
+    .leftside{
+        
+        display: flex;
+        width: 25%;
+        flex-direction: column;
+        border-radius: 14px;
+        gap: 25px;
+    }
+    .rightside{
+        flex: 1;
+    }
+    .image-section{
+        display: flex;
+        gap: 28px;
+    }
+    .image-section a{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    /* join related styles */
+    .join{
+        background-image: url("../images/news-letter-bg.png");
+        width: 100%;
+        height: 533px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+    }
+    .join input{
+        width: 830px;
+        height: 50px;
+    }
 /* responsive related styles */
 @media screen and (max-width: 768px) {
     /* .navbar{
