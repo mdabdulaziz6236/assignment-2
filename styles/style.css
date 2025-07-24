@@ -123,6 +123,36 @@ header nav ul li{
         font-size: 1.3rem;
         color: rgba(0, 0, 0, 0.5);
     }
+    /* card section related styles */
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+        margin-top: 49px;
+    }
+    .card-button{
+        background-color:rgba(233, 90, 8, 1) ;
+        color: rgba(255, 255, 255, 1);
+        padding: 19px 80px 19px 80px;
+        font-weight: 600;
+        font-size: 1rem;
+        border: none;
+
+    }
+    .card-title{
+        font-weight: 500;
+        font-size: 1.375rem;
+        margin: 0;
+        padding-top: 30px;
+    }
+    .card-money{
+        font-size: 1.375rem;
+        font-weight: bold;
+        margin: 0;
+        padding: 20px;
+
+    }
 /* responsive related styles */
 @media screen and (max-width: 768px){
     /* .navbar{
