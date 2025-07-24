@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>assignment-2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body class="body noto-serif-normal">
+  <body class="body">
     <header>
       <div class="navbar display-flex">
         <div>
@@ -19,11 +25,13 @@
 
         <nav>
           <ul class="navbar display-flex">
-            <li><a class="bold a-home" href="">Home</a></li>
-            <li><a class="a-shop" href="">Shop</a></li>
-            <li><a class="a-about-us" href="">About us</a></li>
+            <li><a class="bold noto-serif-normal a-home" href="">Home</a></li>
+            <li><a class="a-shop noto-serif-normal" href="">Shop</a></li>
+            <li>
+              <a class="a-about-us noto-serif-normal" href="">About us</a>
+            </li>
             <li class="li-cart">
-              <a class="regular a-cart" href="">
+              <a class="regular a-cart noto-serif-normal" href="">
                 <i class="fa-solid fa-cart-shopping"></i
                 ><span class="cart-icon">cart ($56)</span></a
               >
@@ -31,8 +39,35 @@
           </ul>
         </nav>
       </div>
+      <div class="header-section display-flex">
+        <div class="section-text">
+          <h1 class="header-title noto-serif-normal bold">
+            ALWAYS <span class="font-color">FRESH</span> <br /><span
+              class="font-color"
+              >FLOWERS</span
+            >
+          </h1>
+          <p class="header-description regular font-color-2 inter-normal">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+        <div>
+          <img class="section-image" src="images/hero-flower.png" alt="" />
+        </div>
+      </div>
     </header>
-    <main></main>
+    <main>
+      <div class="section">
+        <h3 class="section-title bold"><span class="font-color">Our</span> Plants</h3>
+        <p class="section-description regular">
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop. From classic roses to exotic blooms, we offer a wide variety of
+          fresh.
+        </p>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
